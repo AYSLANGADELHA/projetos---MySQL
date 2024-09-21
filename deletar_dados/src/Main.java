@@ -19,7 +19,7 @@ public class Main {
                             + "WHERE "
                             + "Id = ?");
 
-            st.setInt(1, 2);
+            st.setInt(1, 6);
 
             int rowsAffected = st.executeUpdate();
 
